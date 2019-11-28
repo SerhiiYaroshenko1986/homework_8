@@ -1,0 +1,142 @@
+body {
+    background-color: #b07cf7;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.blog__header {
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.blog__subheader {
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 570px;
+    max-height: 180px;
+    margin: 0 auto;
+    padding: 110px 0 50px 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu__date {
+    font-size: 32px;
+    position: absolute;
+    top: 0;
+    left: 35px;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 5%;
+    font-weight: 700;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(81, 87, 97, 0.4);
+    line-height: 0.85;
+}
+
+.menu__date span {
+    padding: 0;
+    margin: 0;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.menu__slogan {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    position: absolute;
+    top: 185px;
+    left: 35px;
+}
+
+.menu__author {
+    color: #ffffff;
+    font-size: 13px;
+    position: absolute;
+    top: 260px;
+    left: 35px;
+}
+
+.menu__conteiner1 {
+    margin: 15px;
+    position: relative;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.menu__conteiner2 {
+    margin: 15px;
+    position: relative;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.menu__conteiner3 {
+    margin: 15px;
+    position: relative;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: brightness(70%);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #f72b3b;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.menu__conteiner1:hover,
+.menu__conteiner2:hover,
+.menu__conteiner3:hover {
+    transform: scale(1.05);
+    transition: all .2s linear;
+}
+
+.menu img:hover {
+    filter: brightness(40%);
+}
+
+button:hover {
+    transform: translateY(-20px);
+    background-color: #ffffff;
+    color: #f72b3b;
+    border-radius: 10px;
+    transition: all 0.5s linear;
+}
